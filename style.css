@@ -1,23 +1,23 @@
-body {
-  background-color: black;
+* {
+    background-color: black;
+    color: white
 }
+
 h1 {
-  text-transform: uppercase;
+     text-transform: uppercase;
   font-size: 3rem;
 }
 
-.justry {
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 100px;
-  color: white;
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
+.image {
+    border: 5px solid white;
+    width: 100%;
 }
 
-.motivation-img {
-  border: 5px solid white;
-  width: 100%;
+.whole {
+    text-align: center;
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%  ;
+    font-family: "Libre Baskerville", serif;
 }
-
 

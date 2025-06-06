@@ -1,33 +1,25 @@
-
-
-#outer-box {
-  border: 10px solid purple;
+/* Group */
+h1,
+h2 {
+  color: blueviolet;
 }
 
-.box {
-  background-color: blue;
-  padding: 10px;
-  color: yellow;
+/* Child */
+.box > p {
+  color: firebrick;
 }
 
-p {
-  color: yellow;
-  padding: 0px;
-  margin: 0px;
+/* Descendent */
+.box li {
+  color: blue;
 }
 
-.inner-box {
-  background-color: red;
+/* Chained */
+li.done {
+  color: green;
 }
 
-.white-text {
-  color: white;
+/* Multiple Combiners */
+ul p.done {
+  font-size: 0.5rem;
 }
-
-
-
-
-
-
-
-
